@@ -234,6 +234,6 @@ user      User     @relation(references: [id], fields: [userId], onDelete: Casca
 }
 ```
 
-2. We push our new database schema to the cloud. At the command line, enter: `npx prisma db push`
+2. We push our new database schema to the cloud. At the command line, enter: `npx prisma db push`. We use this command every time we make a change to our database schema.
 
 3. Next we set-up an `auth.ts` file where we create a Lucia client and set-up the authentication logic
